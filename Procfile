@@ -1,1 +1,1 @@
-web: gunicorn hola_mundo_simple.wsgi
+web: gunicorn colegio.wsgi
