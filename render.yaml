@@ -1,9 +1,6 @@
 services:
   - type: web
-    name: colegio-control
-    runtime: python
+    name: tu-nombre-servicio
+    env: python
     buildCommand: pip install -r requirements.txt
     startCommand: gunicorn colegio.wsgi:application
-    envVars:
-      - key: DJANGO_SETTINGS_MODULE
-        value: colegio.settings
