@@ -3,4 +3,4 @@ services:
     name: colegio-app
     env: python
     buildCommand: pip install -r requirements.txt
-    startCommand: gunicorn colegio.wsgi:application
+    startCommand: gunicorn colegio.wsgi
